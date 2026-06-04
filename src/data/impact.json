@@ -1,0 +1,34 @@
+{
+  "totalRaised": 2847563,
+  "totalPurchases": 48291,
+  "totalClicks": 312847,
+  "retailersAvailable": 1247,
+  "charitiesSupported": 24,
+  "lastUpdated": "2026-06-01",
+  "monthlyDonations": [
+    { "month": "Jan", "year": 2025, "amount": 142000 },
+    { "month": "Feb", "year": 2025, "amount": 158000 },
+    { "month": "Mar", "year": 2025, "amount": 171000 },
+    { "month": "Apr", "year": 2025, "amount": 189000 },
+    { "month": "May", "year": 2025, "amount": 203000 },
+    { "month": "Jun", "year": 2025, "amount": 218000 },
+    { "month": "Jul", "year": 2025, "amount": 234000 },
+    { "month": "Aug", "year": 2025, "amount": 251000 },
+    { "month": "Sep", "year": 2025, "amount": 267000 },
+    { "month": "Oct", "year": 2025, "amount": 284000 },
+    { "month": "Nov", "year": 2025, "amount": 312000 },
+    { "month": "Dec", "year": 2025, "amount": 348000 },
+    { "month": "Jan", "year": 2026, "amount": 198000 },
+    { "month": "Feb", "year": 2026, "amount": 215000 },
+    { "month": "Mar", "year": 2026, "amount": 232000 },
+    { "month": "Apr", "year": 2026, "amount": 248000 },
+    { "month": "May", "year": 2026, "amount": 264000 }
+  ],
+  "milestones": [
+    { "date": "2023-03", "title": "Launch", "description": "Link to Charity goes live with 50 retailers." },
+    { "date": "2023-11", "title": "$100K Raised", "description": "First major milestone — $100,000 donated to charity partners." },
+    { "date": "2024-06", "title": "500 Retailers", "description": "Partnership network expands to 500+ stores worldwide." },
+    { "date": "2025-01", "title": "$1M Raised", "description": "One million dollars in affiliate commissions redirected to charity." },
+    { "date": "2026-01", "title": "1,000+ Retailers", "description": "Over 1,200 retailers now available — shop almost anywhere." }
+  ]
+}
