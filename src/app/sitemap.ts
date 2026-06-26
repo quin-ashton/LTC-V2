@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const baseUrl = "https://linktocharity.org";
+const baseUrl = "https://linktocharity.com";
 
 const routes = [
   "",
