@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { organizationSchema, websiteSchema } from "@/lib/seo";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://linktocharity.org"),
+  metadataBase: new URL("https://link-to-charity.com"),
   title: {
     default: "Link to Charity — Shop Online, Support Charity",
     template: "%s | Link to Charity",
@@ -47,6 +48,10 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Script
+  src="https://s.skimresources.com/js/305309X1793505.skimlinks.js"
+  strategy="afterInteractive"
+/>
       </body>
     </html>
   );
