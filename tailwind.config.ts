@@ -13,7 +13,7 @@ const config: Config = {
           black: "#1d1d1f",
           gray: "#86868b",
           light: "#f5f5f7",
-          accent: "#0071e3",
+          accent: "#720000",
           green: "#34c759",
           warm: "#f56300",
         },

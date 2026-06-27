@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Subtle charity-themed background">
+  <rect width="1600" height="900" fill="#f7f2ed"/>
+  <circle cx="1280" cy="240" r="180" fill="#720000" opacity="0.10"/>
+  <circle cx="380" cy="680" r="220" fill="#1d1d1f" opacity="0.06"/>
+  <path d="M260 620c70-110 170-180 270-180 90 0 170 45 230 120" stroke="#720000" stroke-width="16" stroke-linecap="round" opacity="0.16"/>
+  <path d="M920 260c40-72 112-116 194-116 78 0 150 36 194 98" stroke="#1d1d1f" stroke-width="14" stroke-linecap="round" opacity="0.12"/>
+  <path d="M660 620c40-80 110-132 192-132 74 0 140 34 192 92" stroke="#720000" stroke-width="14" stroke-linecap="round" opacity="0.10"/>
+</svg>

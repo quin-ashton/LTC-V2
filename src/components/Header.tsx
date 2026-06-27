@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -22,10 +23,16 @@ export function Header() {
         <div className="flex h-14 items-center justify-between">
           <Link
             href="/"
-            className="text-lg font-semibold tracking-tight text-ltc-black hover:opacity-80 transition-opacity"
+            className="flex items-center hover:opacity-80 transition-opacity"
             onClick={() => setMenuOpen(false)}
           >
-            Link to Charity
+            <Image
+              src="/images/logo.png"
+              alt="Link to Charity"
+              width={160}
+              height={36}
+              className="h-8 w-auto [filter:drop-shadow(0_0_0.02px_#808080)_drop-shadow(0_0_0.02px_#808080)_drop-shadow(0_0_0.02px_#808080)]"
+            />
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -58,12 +65,32 @@ export function Header() {
             onClick={() => setMenuOpen(!menuOpen)}
           >
             {menuOpen ? (
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={1.5}
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             ) : (
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 6h16M4 12h16M4 18h16" />
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={1.5}
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
               </svg>
             )}
           </button>

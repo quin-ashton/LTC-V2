@@ -22,7 +22,16 @@ export default function HomePage() {
   return (
     <>
       <section className="relative overflow-hidden">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-16 sm:pt-32 sm:pb-24 text-center">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-cover opacity-[0.25]"
+          style={{
+            backgroundImage: "url('/images/hero-background.jpeg')",
+            backgroundPosition: "230% 45%",
+            backgroundSize: "115% auto",
+          }}
+        />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-16 sm:pt-32 sm:pb-24 text-center">
           <p className="text-sm font-medium text-ltc-accent mb-4 animate-fade-in">
             Affiliate commissions → Charity
           </p>
@@ -31,7 +40,7 @@ export default function HomePage() {
             <br />
             Support Charity.
           </h1>
-          <p className="mt-6 mx-auto max-w-2xl text-lg sm:text-xl text-ltc-gray leading-relaxed text-balance">
+          <p className="mt-6 mx-auto max-w-2xl text-lg sm:text-xl text-gray-700 leading-relaxed text-balance">
             Every purchase can help generate donations at absolutely no cost to
             you. Retailers already pay affiliate commissions — we redirect them
             to charity.

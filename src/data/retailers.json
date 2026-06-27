@@ -85,7 +85,7 @@
     "donationRate": "Up to 3%",
     "affiliateUrl": "https://linktocharity.org/go/target",
     "featured": true,
-    "logoColor": "#0071e3"
+    "logoColor": "#720000"
   },
   {
     "id": "9",
@@ -173,7 +173,7 @@
     "donationRate": "Up to 6%",
     "affiliateUrl": "https://linktocharity.org/go/under-armour",
     "featured": false,
-    "logoColor": "#0071e3"
+    "logoColor": "#720000"
   },
   {
     "id": "17",
@@ -219,5 +219,4 @@
     "featured": false,
     "logoColor": "#ff2d55"
   }
-
 ]
