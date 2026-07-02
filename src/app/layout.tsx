@@ -49,9 +49,9 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <Script
-  src="https://s.skimresources.com/js/305309X1793505.skimlinks.js"
-  strategy="afterInteractive"
-/>
+          src="https://s.skimresources.com/js/305640X1793856.skimlinks.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
