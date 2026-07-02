@@ -122,12 +122,12 @@
   },
   {
     "id": "12",
-    "name": "ASOS",
-    "slug": "asos",
-    "category": "Fashion",
-    "description": "Trend-led fashion for young adults.",
-    "donationRate": "Up to 7%",
-    "affiliateUrl": "https://linktocharity.org/go/asos",
+    "name": "Hilton Hotels",
+    "slug": "hilton-hotels",
+    "category": "Travel",
+    "description": "Luxury hotels and resorts worldwide.",
+    "donationRate": "Up to ?%",
+    "affiliateUrl": "https://www.hilton.com/en/resorts/emea/?WT.mc_id=zAGEC0EMEA1MB2OLA3AffiliateGen4EMEA_Resorts_Campaign_Sep5AWINAffiliate6MULTIBR7EN8i163763&skimoffer=4071688",
     "featured": false,
     "logoColor": "#ff2d55"
   },
