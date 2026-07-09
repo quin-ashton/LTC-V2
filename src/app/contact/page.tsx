@@ -21,12 +21,16 @@ export default function ContactPage() {
           <ContactForm />
           <div className="mt-12 text-center text-sm text-ltc-gray space-y-2">
             <p>
-              <strong className="text-ltc-black">Partnerships:</strong>{" "}
-              partners@linktocharity.org
+              <strong className="text-ltc-black">General inquiries:</strong>{" "}
+              <a
+                href="mailto:linktocharity@gmail.com"
+                className="text-ltc-accent transition-colors hover:underline"
+              >
+                linktocharity@gmail.com
+              </a>
             </p>
             <p>
-              <strong className="text-ltc-black">Press:</strong>{" "}
-              press@linktocharity.org
+              Your message will be sent directly from this page.
             </p>
           </div>
         </div>

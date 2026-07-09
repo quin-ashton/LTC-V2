@@ -35,7 +35,10 @@ export function getCharityCategories(): Charity["category"][] {
 
 export function getImpactStats(): ImpactStats {
   const { monthlyDonations: _, milestones: __, ...stats } = impactData;
-  return stats as ImpactStats;
+  return {
+    ...stats,
+    retailersAvailable: getRetailers().length,
+  } as ImpactStats;
 }
 
 export function getMonthlyDonations(): MonthlyDonation[] {
@@ -49,7 +52,7 @@ export function getMilestones() {
 export function searchRetailers(
   query: string,
   category?: string,
-  letter?: string
+  letter?: string,
 ): Retailer[] {
   const q = query.trim().toLowerCase();
   return getRetailers().filter((r) => {

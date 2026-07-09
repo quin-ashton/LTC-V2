@@ -2,7 +2,7 @@
   "totalRaised": 6.47,
   "totalPurchases": 3,
   "totalClicks": 33,
-  "retailersAvailable": 20,
+  "retailersAvailable": 25,
   "charitiesSupported": 10,
   "lastUpdated": "2026-06-01",
   "monthlyDonations": [
@@ -25,10 +25,30 @@
     { "month": "May", "year": 2026, "amount": 6.47 }
   ],
   "milestones": [
-    { "date": "2023-03", "title": "Launch", "description": "Link to Charity goes live with 5 retailers." },
-    { "date": "2023-11", "title": "First Clicks", "description": "First clicks recorded on the platform." },
-    { "date": "2024-06", "title": "10 Retailers", "description": "Partnership network expands to 10 stores." },
-    { "date": "2025-01", "title": "$1 Raised", "description": "One dollar in affiliate commissions redirected to charity." },
-    { "date": "2026-01", "title": "20 Retailers", "description": "20 retailers now available — widening our reach." }
+    {
+      "date": "2023-03",
+      "title": "Launch",
+      "description": "Link to Charity goes live with 5 retailers."
+    },
+    {
+      "date": "2023-11",
+      "title": "First Clicks",
+      "description": "First clicks recorded on the platform."
+    },
+    {
+      "date": "2024-06",
+      "title": "10 Retailers",
+      "description": "Partnership network expands to 10 stores."
+    },
+    {
+      "date": "2025-01",
+      "title": "$1 Raised",
+      "description": "One dollar in affiliate commissions redirected to charity."
+    },
+    {
+      "date": "2026-01",
+      "title": "20 Retailers",
+      "description": "20 retailers now available — widening our reach."
+    }
   ]
 }
